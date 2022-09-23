@@ -16,11 +16,11 @@
         <h2>View Note</h2>
         
         
-        <form >
+        <form action="note" method="post">
             <p>
             <label>
                 Title:
-                <input type="text">
+                <input type="text" name="title">
             </label>  
             </p>
                 
@@ -28,7 +28,7 @@
             <p>
             
             <label for="contents">Contents:</label>
-            <textarea id="contents"></textarea>
+            <textarea id="contents" name="contents"></textarea>
             
             </p>
             
